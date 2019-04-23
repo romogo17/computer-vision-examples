@@ -22,3 +22,24 @@ This implementation solves the same constraints using a different technique. Ins
 Once a pixel is inpainted, the boundary needs to updated. The author treats the missing region of the image as level sets and uses the fast marching method to update the boundary.
 
 [Further reading](https://pdfs.semanticscholar.org/622d/5f432e515da69f8f220fb92b17c8426d0427.pdf)
+
+
+## Run the examples
+For **Python**:
+```sh
+python inpaint.py <image_path>
+```
+
+For **C++**, first build the examples and then:
+```sh
+./inpaint <image_path>
+```
+
+## Build the C++ examples
+Specify the OpenCV_DIR in CMakeLists.txt file. Then:
+
+```sh
+mkdir build
+cd build
+cmake ..
+```
