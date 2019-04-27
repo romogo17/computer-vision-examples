@@ -1,4 +1,5 @@
 # Image Inpainting
+
 > Taken from [LearnOpenCV](https://www.learnopencv.com/)
 
 **Image inpainting is a class of algorithms in computer vision where the objective is to fill regions inside an image or a video.**
@@ -23,23 +24,27 @@ Once a pixel is inpainted, the boundary needs to updated. The author treats the 
 
 [Further reading](https://pdfs.semanticscholar.org/622d/5f432e515da69f8f220fb92b17c8426d0427.pdf)
 
-
 ## Run the examples
+
 For **Python**:
+
 ```sh
 python inpaint.py <image_path>
 ```
 
 For **C++**, first build the examples and then:
+
 ```sh
 ./inpaint <image_path>
 ```
 
 ## Build the C++ examples
+
 Specify the OpenCV_DIR in CMakeLists.txt file. Then:
 
 ```sh
 mkdir build
 cd build
 cmake ..
+make
 ```

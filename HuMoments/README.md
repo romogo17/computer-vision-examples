@@ -1,4 +1,5 @@
 # Hu Moments
+
 > Taken from [LearnOpenCV](https://www.learnopencv.com/)
 
 **Image moments are a weighted average of image pixel intensities.**
@@ -9,9 +10,10 @@ Hu Moments ( or rather Hu moment invariants ) are a set of 7 numbers calculated 
 
 [Further reading](https://www.researchgate.net/publication/224146066_Analysis_of_Hu's_moment_invariants_on_image_scaling_and_rotation)
 
-
 ## Run the examples
+
 For **Python**:
+
 ```sh
 # Hu Moments example
 python hu_moments.py images/*
@@ -21,6 +23,7 @@ python shape_matcher.py
 ```
 
 For **C++**, first build the examples and then:
+
 ```sh
 # Hu Moments example
 ./hu_moments ../images/*
@@ -30,10 +33,12 @@ For **C++**, first build the examples and then:
 ```
 
 ## Build the C++ examples
+
 Specify the OpenCV_DIR in CMakeLists.txt file. Then:
 
 ```sh
 mkdir build
 cd build
 cmake ..
+make
 ```
