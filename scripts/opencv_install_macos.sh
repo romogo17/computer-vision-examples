@@ -170,7 +170,7 @@ step '\n✔ - Building OpenCV'
 echo "This step may take some time"
 echo ""
 pause "Press [Enter] to continue..."
-cmake --build . --parallel 4
+cmake --build . -- -j 4
 
 
 step '\n✔ - Installing OpenCV'

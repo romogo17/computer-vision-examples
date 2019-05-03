@@ -210,3 +210,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Pretrained shape predictors
+*.dat
+
+# Output files
+*output*
