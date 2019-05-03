@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.12)
 
-PROJECT(opencv_examples)
+PROJECT(computer-vision-examples)
 
 set(OpenCV_DIR /Users/ro/.local/lib/cmake/opencv4/)
 find_package( OpenCV REQUIRED )
